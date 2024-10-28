@@ -1,0 +1,144 @@
+* {
+    /* Seletor universal*/
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    background-color: #F5F4f0;
+}
+
+article {
+    width: 1120px;
+    margin: 88px auto 65px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+span {
+    color: #E1624F;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* a fonte fica com todas as letras em maiúsculo */
+}
+
+h1 {
+    color: #1B1B1B;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+h2 {
+    color: #1B1B1B;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    background-color: #d9d9d9;
+}
+
+ol {
+    list-style-position: inside;
+    /* Coloca a numeração dentro do <li> */
+}
+
+li {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+
+ul li::marker {
+    content: "●";
+    /* Define o marcador como uma bola */
+    color: #333333;
+    /* Cor preta para os marcadores */
+    font-size: 11px;
+    /* Tamanho ligeiramente maior */
+}
+
+
+ul {
+    font-weight: bold;
+}
+
+ul li {
+    font-size: 16px;
+    margin-left: 12px;
+    padding-left: 5px;
+    list-style-position: outside;
+    align-items: ;
+}
+
+.list_blue {
+    color: #0C51A7;
+}
+
+.list_pink {
+    color: #E5245E;
+}
+
+.list_orange {
+    color: #E95E10;
+}
+
+ol div {
+    margin-bottom: 40px;
+}
+
+#image img {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+#image p {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#list #title {
+    margin-block: 64px;
+}
+
+#list img {
+    border-radius: 28px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#list p {
+    color: #333333;
+    font-weight: regular;
+    font-size: 16px;
+    text-align: left;
+}
+
+#description p {
+    text-align: center;
+    color: #333333;
+}
+
+footer {
+    font-family: "Alice", serif;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+}
